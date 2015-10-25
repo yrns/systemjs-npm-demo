@@ -5,10 +5,12 @@
     "ramda": "^0.18.0"
   },
   "devDependencies": {
-    "system-npm": "^0.3.5",
+    "system-npm": "github:yrns/system-npm",
     "systemjs": "^0.19.5"
   },
   "system": {
-    "npmIgnore": ["devDependencies"]
+    "npmIgnore": [
+      "devDependencies"
+    ]
   }
 }
